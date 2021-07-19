@@ -64,7 +64,10 @@
 	contributors = shortlog --summary --numbered
 
 	# Show the user email for the current repository.
-	whoami = config user.email
+  whoami = config user.email
+
+  #Compoact log view
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [apply]
 
